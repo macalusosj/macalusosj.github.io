@@ -1,0 +1,58 @@
+/*	==========================================================================
+   	Skip link for accessibility
+   	========================================================================== */
+#targetnavigation {
+  position: absolute; }
+
+.ac-skiplink {
+  position: absolute;
+  top: -9999em;
+  -moz-transition: background 100ms ease-in;
+  -ms-transition: background 100ms ease-in;
+  -o-transition: background 100ms ease-in;
+  -webkit-transition: background 100ms ease-in;
+  transition: background 100ms ease-in; }
+
+.ac-skiplink:active,
+.ac-skiplink:focus,
+.ac-skiplink:hover {
+  background: none repeat scroll 0 0 #ee6910;
+  -moz-box-shadow: 0 1px 5px 0 rgba(50, 50, 50, 0.5);
+  -webkit-box-shadow: 0 1px 5px 0 rgba(50, 50, 50, 0.5);
+  box-shadow: 0 1px 5px 0 rgba(50, 50, 50, 0.5);
+  font-family: arial;
+  font-weight: bold;
+  left: 0;
+  margin: 0;
+  padding: .6em .8em !important;
+  position: absolute !important;
+  right: 0;
+  text-shadow: 0 1px 1px rgba(50, 50, 50, 0.85);
+  top: 0;
+  z-index: 200; }
+
+/* Text meant only for screen readers */
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important; }
+
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar */ }

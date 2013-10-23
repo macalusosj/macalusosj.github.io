@@ -1,0 +1,13 @@
+---
+layout: default
+aside: art
+bodyClass: art u-PostsListPage
+title: Art
+---
+
+<h2 class="u-pageTitle--above">{{ page.title }} Posts</h2>
+<ul class="u-PostsList u-PostsList--art">
+{% for post in site.categories.art %}
+	<li class="u-PostsList__itemContainer"><span>{{ post.date | date_to_string }}</span> &raquo; <a class="u-PostsList__item" href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>

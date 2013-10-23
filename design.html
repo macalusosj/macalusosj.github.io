@@ -1,0 +1,31 @@
+---
+layout: default
+aside: design
+bodyClass: design u-PostsListPage
+title: Design
+---
+
+<!-- <h2 class="u-pageTitle">{{ page.title }} Posts</h2>
+<ul class="u-PostsList u-PostsList--design">
+{% for post in site.categories.design %}
+	<li class="u-PostsList__itemContainer">
+		<a class="u-PostsList__item" href="{{ post.url }}">
+			<div class="figure u-Figure {{ post.figureClassThumb }}">
+				<figure>
+					<img class="u-Figure__image" src="{{ site.url }}/images/{{ post.imageThumb }}" height="300px" width="300px" alt="{{ post.figureCaptionOne }}" />
+						<figcaption>
+							<div class="figcaption u-Figure__caption">{{ post.date | date_to_string }} &raquo; {{ post.title }}</div>
+						</figcaption>
+				</figure>
+			</div>
+		</a>
+	</li>
+{% endfor %}
+</ul> -->
+
+<h2 class="u-pageTitle--above">{{ page.title }} Posts</h2>
+<ul class="u-PostsList u-PostsList--design">
+{% for post in site.categories.design %}
+	<li class="u-PostsList__itemContainer"><span>{{ post.date | date_to_string }}</span> &raquo; <a class="u-PostsList__item" href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>

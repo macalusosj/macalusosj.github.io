@@ -1,0 +1,298 @@
+/*	==========================================================================
+	Layout
+	========================================================================== */
+
+	@import "compass/css3";
+	@import "mixins";
+
+	@media screen {
+
+		/* html elements
+		---------------- */
+
+		* { 
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+		/* Embeds and iframes fit their containers */
+		embed,
+		iframe,
+		object {
+			max-width: 100%;
+		}
+
+		/* Images fit their containers */
+		img {
+			height: auto;
+			max-width: 100%;
+		}
+
+		figure {
+			margin: 0;
+			padding: 0;
+		}
+
+		body {
+			position: relative;
+		}
+
+		h1,h2,h3,h4,h5,h6 {
+			margin-bottom: .41em;
+		}
+
+		hr {
+		}
+
+		hr:after {
+		    display: inline-block;
+		    position: relative; 
+		    top: -0.8em;  
+		    padding: 0 0.25em;
+		}
+
+		/* classes
+		---------------- */
+
+		.u-lHeader {
+			padding: 1.953em 0 1.563em;
+		}
+
+		#u-Masthead:before {
+			position: absolute;
+		}
+
+		.u-Masthead {
+			padding-bottom: 1.563em;
+		}
+
+		.u-Masthead__siteName {
+			margin-left: 1.953em;
+			padding-top: .328em;
+		}
+
+		.u-Masthead__siteDescription {
+			margin-left: 3.815em;
+		}
+
+		.u-lContent {
+		}
+
+		.u-PostsList {
+			margin-left: 0;
+			padding-left: 0;
+			margin-bottom: 1.563em;
+		}
+
+		.u-PostsList__itemContainer {
+			/*float: left;
+			padding-right: 3%;
+			width: 33%;*/
+		}
+
+		.u-pageTitle--above {
+			margin-top: -.107em;
+		}
+
+		.u-pageTitle--below {
+			margin-bottom: 0;
+		}
+
+		.u-asideTitle {
+			margin: 0;
+		}
+
+		.u-pageDate {
+			margin: 0 0 1.953em;
+		}
+
+		.u-lFooter {
+			padding: .512em 0 1.953em;
+			position: relative;
+		}
+
+		/*  Menu  */
+
+		.ac-NavAnchor {
+			padding: .107em .41em;
+		}
+
+		.ac-NavAnchor--menu,
+		.ac-NavAnchor--top {
+			position: absolute;
+			right: 5%;
+		}
+
+		.ac-NavAnchor--menu {
+			top: 1.563em;
+		}
+
+		.ac-NavAnchor--top {
+			top: 0;
+		}
+
+		.u-NavSite {
+			position: relative;
+			li a {
+				display: block;
+				text-decoration: none;
+			}
+			ul {
+				margin: 0;
+				padding-left: 0;
+			}
+		}
+
+		.u-NavSite li { /* bem up these list items */
+			float: none;
+		}
+
+		.u-NavSite {
+			margin-top: 1.563em;
+			margin-bottom: 1.563em;
+			padding-top: 1.953em;
+		}
+
+		/*  Figure  */
+
+		.u-Figure {
+			margin: 0 0 1.563em 0;
+		}
+
+		.u-Figure__image {
+		}
+
+		.bio .u-Figure__image {
+			border-radius: 15em;
+		}
+
+		.u-Figure__caption {
+
+		}
+
+		.u-Figure--left {
+			float: left;
+			margin: 0 1.563em 1.563em 0;
+		}
+
+		.u-Figure--right {
+			float: right;
+			margin: 0 0 1.563em 1.563em;
+		}
+
+		.u-Figure--third {
+			width: 33%;
+		}
+
+		.u-lHeader,
+		.u-lFooter,
+		.u-lMain,
+		.u-NavSite {
+			padding-left: 5%;
+			padding-right: 5%;
+		}
+
+		.u-lAside {
+			padding-top: 1.563em;
+		}
+
+		/*  vCard  */
+
+		.u-VCard--person {
+			padding-top: 1.563em;
+			padding-bottom: .64em;
+			margin-bottom: .8em;
+			position: relative;
+		}
+
+		.u-VCard--person__url:before {
+			position: absolute;
+			top: 1.188em;
+		}
+
+		.u-VCard--person__fn,
+		.u-VCard--person__title {
+			display: inline-block;
+		}
+
+		.u-VCard--person__item--givenName,
+		.u-VCard--person__adr {
+			@include v-pixel-fallback ('margin-left', 2.441rem);
+		}
+
+		.u-VCard--person__adr {
+			@include v-pixel-fallback ('margin-top', -.512rem);
+		}
+
+		.u-VCard--person__info {
+			list-style: none;
+			margin: .8em 0 0 0;
+			padding: 0;
+		}
+
+		.u-VCard--person__itemContainer {
+			display: inline-block;
+		}
+
+	}
+
+	@media screen and (min-width: 38em) {
+
+		/* menu and top icon */
+		.ac-NavAnchor--menu,
+		.u-NavSite .ac-NavAnchor--top {
+			display: none;
+		}
+
+		.u-lHeader,
+		.u-lFooter {
+			padding-left: 12.5%;
+			padding-right: 12.5%;
+		}
+
+		.u-lMain {
+			float: right;
+			padding-left: 0;
+			padding-right: 12.5%;
+			width: 80%;
+		}
+
+		.u-lContent {
+			float: left;
+			padding-right: 7.451%;
+			padding-left: 7.451%;
+			width: 80%;
+		}
+
+		.u-lAside {
+			float: right;
+			width: 20%;
+			padding-top: 0;
+
+		}
+
+		.u-lFooter {
+			clear: both;
+		}
+
+		.u-VCard--person__info {
+			margin: 0 0 0 0;
+			right: 0;
+			bottom: .512em;
+			position: absolute;
+		}
+
+		/* Menu
+		------- */
+
+		.u-NavSite {
+			float: left;
+			width: 20%;
+			margin-top: -.107em;
+ 			padding-left: 12.5%;
+			padding-right: 0;
+			padding-top: 0;
+		}
+
+	}

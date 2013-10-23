@@ -1,0 +1,12 @@
+---
+layout: default
+title: Home
+bodyClass: home u-PostsListPage
+---
+
+<h2 class="u-pageTitle--above">{{ page.title }}</h2>
+<ul class="u-PostsList">
+{% for post in site.posts %}
+	<li class="u-PostsList__itemContainer"><span>{{ post.date | date_to_string }}</span> &raquo; <a class="u-PostsList__item" href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>

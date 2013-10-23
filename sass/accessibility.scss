@@ -1,0 +1,55 @@
+/*	==========================================================================
+   	Skip link for accessibility
+   	========================================================================== */	
+#targetnavigation {
+	position:absolute;
+}
+
+.u-lVisuallyHidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*position: absolute !important;
+clip: rect(1px 1px 1px 1px);*/ /* IE6, IE7 */
+/*clip: rect(1px, 1px, 1px, 1px);
+padding:0 !important;
+border:0 !important;
+height: 1px !important; 
+width: 1px !important; 
+overflow: hidden;*/
+
+.ac-skipLink {
+	position:absolute;
+	top:-9999em;
+	-moz-transition:background 100ms ease-in;
+	-ms-transition:background 100ms ease-in;
+	-o-transition:background 100ms ease-in;
+	-webkit-transition:background 100ms ease-in;
+	transition:background 100ms ease-in
+}
+
+.ac-skipLink:active,
+.ac-skipLink:focus,
+.ac-skipLink:hover {
+	background:none repeat scroll 0 0 #ee6910;
+	-moz-box-shadow: 0 1px 5px 0 rgba(50, 50, 50, .5);
+	-webkit-box-shadow: 0 1px 5px 0 rgba(50, 50, 50, .5);
+	box-shadow: 0 1px 5px 0 rgba(50, 50, 50, .5);
+	font-family:arial;
+	font-weight:bold;
+	left:0;
+	margin:0;
+	padding: .6em .8em !important;
+	position:absolute !important;
+	right:0;
+	text-shadow: 0 1px 1px rgba(50, 50, 50, 0.85);
+	top:0;
+	z-index:200
+}

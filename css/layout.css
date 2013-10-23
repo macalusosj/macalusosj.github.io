@@ -1,0 +1,83 @@
+/*	==========================================================================
+	Layout
+	========================================================================== */
+@media screen {
+  /* Javascript sets .js html element class to hidden until web fonts load
+  ======================================================================== */
+  .js {
+    visibility: hidden; }
+
+  /* Web font loader
+  ======================================================================== */
+  .wf-error,
+  .wf-active,
+  .wf-inactive {
+    visibility: visible; } }
+@media screen and (min-width: 10em) {
+  .navigation-main li {
+    float: none; }
+
+  /* Small screen menu icon
+  ======================================================================== */
+  	/*.ac-navanchor-menu {
+  		display: block;
+  	}
+  
+  	.menu-toggle,
+  	.main-small-navigation ul.nav-menu.toggled-on {
+  		display: block;
+  	}*/ }
+@media screen and (min-width: 47em) {
+  /* Small screen menu icon
+  ======================================================================== */
+  .ac-navanchor-menu,
+  .navigation-main .ac-navanchor-top {
+    display: none; }
+
+  .site-header {
+    margin-top: 5em; }
+
+  .navigation-main ul {
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+  /* =Menu
+  ----------------------------------------------- */
+  .navigation-main {
+    clear: both;
+    display: block;
+    float: left;
+    width: 100%; }
+
+  .navigation-main ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0; }
+
+  .navigation-main li {
+    float: left;
+    position: relative; }
+
+  .navigation-main a {
+    display: block;
+    text-decoration: none; }
+
+  .navigation-main ul ul {
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    display: none;
+    float: left;
+    position: absolute;
+    top: 1.5em;
+    left: 0;
+    z-index: 99999; }
+
+  .navigation-main ul ul ul {
+    left: 100%;
+    top: 0; }
+
+  .navigation-main ul ul a {
+    width: 200px; }
+
+  .navigation-main ul li:hover > ul {
+    display: block; } }

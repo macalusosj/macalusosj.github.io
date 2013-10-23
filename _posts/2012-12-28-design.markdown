@@ -1,0 +1,20 @@
+---
+layout: post-design
+aside: design
+bodyClass: u-Post
+title: "Sociology Department Website, Vassar College"
+date: 2012-12-28 12:22:34
+categories: design responsive
+imageFileOne: "sociology-vassar-homepage.jpg"
+imageHeightOne: 719
+imageWidthOne: 940
+figureClassOne:
+figureCaptionOne: Sociology Department Website, Vassar College
+u-asideTitle: "Categories"
+figureClassThumb:
+imageThumb: "sociology-vassar-homepage.jpg"
+---
+
+A collaboration between the Communications and Sociolgy department. This site has two page templates based on a three column responsive layout. Designed with Illustrator and hand-coded in Dreamweaver.
+
+[<b class="u-pageLink--external">For Vassar.edu</b>](http://sociology.vassar.edu "For Vassar.edu")

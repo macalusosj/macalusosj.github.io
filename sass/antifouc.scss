@@ -1,0 +1,17 @@
+@media screen {
+
+	/* Javascript sets .js html element class to hidden until web fonts load
+	======================================================================== */
+	.js {
+		visibility: hidden; 
+	}
+
+	/* Web font loader
+	======================================================================== */
+	.wf-error,
+	.wf-active,
+	.wf-inactive {
+		visibility: visible; 
+	}
+	
+}

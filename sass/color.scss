@@ -1,0 +1,88 @@
+	@import "compass";
+
+/*	==========================================================================
+	Color
+	========================================================================== */
+
+	$blue00: #073763;
+	$blue01: #0b5394;
+	$blue02: #3d85c6;
+	$blue03: #6fa8dc;
+	$blue04: #9fc5e8;
+	$grey00: #474747;
+	$grey03: #ccc;
+
+	/* html elements
+	---------------- */
+
+	a {
+		/*link-colors($normal, $hover, $active, $visited, $focus)*/
+	    @include link-colors($blue01, $blue03, $blue04, $blue01, $blue04);
+	    @include transition(all .23s ease-in-out);
+	}
+
+	html,
+	body,
+	button,
+	input,
+	select,
+	textarea {
+		color: $grey00;
+	}
+
+	/* classes
+	---------------- */
+
+	#u-Masthead {
+		text-decoration: none;
+	}
+
+	.ac-NavAnchor {
+		background: $blue01;
+		text-decoration: none;
+	}
+
+	.ac-NavAnchor--menu,
+	.ac-NavAnchor--top,
+	.u-VCard--person__item--socialTwitter,
+	.u-VCard--person__item--socialRdio,
+	.u-VCard--person__item--socialSoundCloud,
+	.u-VCard--person__item--socialGitHub,
+	.u-VCard--person__url {
+		/*link-colors($normal, $hover, $active, $visited, $focus)*/
+	    @include link-colors(white, $blue03, $blue04, white, $blue04);
+	    @include border-radius(3px, 3px);
+	}
+
+	.u-lContent,
+	.u-lAside {
+		border-bottom: .09em solid $grey03;
+	}
+
+	/*  Figure  */
+
+	.u-Figure__image {
+		border: .09em solid $grey03;
+	}
+
+	.u-Masthead {
+		border-bottom: .09em solid $grey03;
+	}
+
+	.u-lFooter {
+		background: $blue00;
+		color: white
+	}
+
+	.u-VCard {
+		border-bottom: .09em solid white;
+	}
+
+	@media screen and (min-width: 38em) {
+
+		.u-lContent,
+		.u-lAside {
+			border-bottom: 0px;
+		}
+
+	}

@@ -1,0 +1,3 @@
+name: Jeff Macaluso
+pygments: true
+exclude: [sass, sjmacaluso.sublime-project, sjmacaluso.sublime-workspace, config.rb, design-files, accessibility.css, color.css, layout.css, reset.css, typography.css, antifouc.css, global.js, scroll.js, webfonts.js]

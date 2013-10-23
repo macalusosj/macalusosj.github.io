@@ -1,0 +1,20 @@
+---
+layout: post-design
+aside: design
+bodyClass: u-Post
+title: "The Hudson Valley, Vassar College"
+date: 2013-03-11 12:22:34
+categories: design slideshow
+imageFileOne: "hudsonvalley.jpg"
+imageHeightOne: 920
+imageWidthOne: 1075
+figureClassOne:
+figureCaptionOne: The Hudson Valley, Vassar College
+u-asideTitle: "Categories"
+figureClassThumb:
+imageThumb: "hudsonvalley.jpg"
+---
+
+This slideshow is a feature for Vassar Admissions. It was built on [AnythingSlider](https://github.com/CSS-Tricks/AnythingSlider "AnythingSlider"). Designed with Illustrator and hand-coded in Dreamweaver.
+
+[<b class="u-pageLink--external">For Vassar.edu</b>](http://admissions.vassar.edu/hudsonvalley/ "For Vassar.edu")

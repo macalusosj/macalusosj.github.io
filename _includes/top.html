@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--  
+Author: Jeff Macaluso
+Author URI: http://jeffmacaluso.com/
+Description: Simple 3 column responsive theme with menu below main content. Web development credit and a huge amount of gratitude to my colleague and mentor Raymond Schwartz (@skeeter).  
+-->
+<html class="no-js {{ page.layout }}" lang="en-US">
+<head>
+  <script type="text/javascript">(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Jeff Macaluso {{ page.title }}</title>
+
+  <link rel="apple-touch-icon" href="{{ site.url }}/images/favicon-512.png">
+  <link rel="icon" href="{{ site.url }}/images/favicon-128.png">
+  <!--[if IE]><link rel="shortcut icon" href="{{ site.url }}/images/favicon.ico"><![endif]-->
+  <!-- or, set /favicon.ico for IE10 win -->
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="{{ site.url }}/images/favicon-512.png">
+
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:description" content="{{ page.title }}" />
+  <meta property="og:image" content="{{ site.url }}/images/favicon-512.png" />
+
+  <!--[if (gte IE 8)&(lt IE 9)]>
+    <link href="{{ site.url }}/css/ie8.css" rel="stylesheet" type="text/css" />
+  <![endif]-->
+  <!--[if (gte IE 9)|(lt IE 8)]><!-->
+    <link href="{{ site.url }}/css/style.css" rel="stylesheet" type="text/css" />
+  <!--<![endif]-->
+
+</head>
