@@ -4,7 +4,7 @@ It is automatically transformed by "Jekyll":http://github.com/mojombo/jekyll int
 
 # License
 
-The following directories and their contents are Copyright Tom Preston-Werner. You may not reuse anything therein without my permission:
+The following directories and their contents are Copyright Jeff Macaluso. You may not reuse anything therein without my permission:
 
 * _posts/
 * images/
