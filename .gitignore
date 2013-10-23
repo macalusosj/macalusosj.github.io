@@ -47,6 +47,4 @@ min/
 *.sublime-project
 *.sublime-workspace
 design-files/
-images/
-fonts/
 *.rb
