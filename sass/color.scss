@@ -1,19 +1,5 @@
 	@import "compass";
-
-/*	==========================================================================
-	Color
-	========================================================================== */
-
-	$blue00: #073763;
-	$blue01: #0b5394;
-	$blue02: #3d85c6;
-	$blue03: #6fa8dc;
-	$blue04: #9fc5e8;
-	$grey00: #474747;
-	$grey03: #ccc;
-
-	/* html elements
-	---------------- */
+	@import "color-values";
 
 	a {
 		/*link-colors($normal, $hover, $active, $visited, $focus)*/

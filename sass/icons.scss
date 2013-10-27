@@ -2,7 +2,7 @@
 	icon fonts - icomoon
 	========================================================================== */
 
-	@font-face {
+	/*@font-face {
 		font-family: 'icomoon';
 		src:url('../fonts/icomoon.eot');
 		src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
@@ -23,4 +23,66 @@
 		line-height: 1;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
-	}
+	}*/
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot');
+	src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class*="icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-favicon:before {
+	content: "\e600";
+}
+.icon-uniE001:before {
+	content: "\e601";
+}
+.icon-Menu--top:before {
+	content: "\e602";
+}
+.icon-uniE003:before {
+	content: "\e603";
+}
+.icon-uniE004:before {
+	content: "\e604";
+}
+.icon-uniE005:before {
+	content: "\e605";
+}
+.icon-Menu:before {
+	content: "\e606";
+}
+.icon-uniE007:before {
+	content: "\e607";
+}
+.icon-Social--twitter:before {
+	content: "\e608";
+}
+.icon-Social--soundcloud:before {
+	content: "\e609";
+}
+.icon-Social--rdio:before {
+	content: "\e60a";
+}
+.icon-Social--github:before {
+	content: "\e60b";
+}
