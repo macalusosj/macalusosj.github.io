@@ -2,7 +2,7 @@ var WebFontConfig;
 
 WebFontConfig = {
   custom: {
-    families: ['Ideal Sans SSm A', 'Ideal Sans SSm B', 'Mercury Text G1 A', 'Mercury Text G1 B'],
+    families: ['Whitney SSm A', 'Whitney SSm B', 'Mercury Text G1 A', 'Mercury Text G1 B'],
     urls: ['//cloud.typography.com/7362032/783882/css/fonts.css'],
 	timeout: 4000 // Set the timeout to two seconds
   }

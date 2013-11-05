@@ -5,9 +5,28 @@ bodyClass: art u-PostsListPage
 title: Art
 ---
 
-<h2 class="u-pageTitle--above">{{ page.title }} Posts</h2>
+<h2 class="u-pageTitle--above">{{ page.title }} Projects</h2>
+
+<ul class="u-PostsList u-PostsList--art">
+{% for post in site.categories.art %}
+	<li class="u-PostsList__itemContainer">
+		<a class="u-PostsList__item" href="{{ post.url }}">
+			<div class="figure u-Figure {{ post.figureClassThumb }}">
+				<figure>
+					<img class="u-Figure__image" src="{{ site.url }}/images/{{ post.imageThumb }}" height="550px" width="550px" alt="{{ post.figureCaptionOne }}" />
+						<figcaption>
+							<div class="figcaption u-Figure__caption"><b class="u-Figure__caption--title">{{ post.title }}</b><b class="u-Figure__caption--date">{{ post.date | date_to_string }}</b></div>
+						</figcaption>
+				</figure>
+			</div>
+		</a>
+	</li>
+{% endfor %}
+</ul>
+
+<!-- <h2 class="u-pageTitle--above">{{ page.title }} Posts</h2>
 <ul class="u-PostsList u-PostsList--art">
 {% for post in site.categories.art %}
 	<li class="u-PostsList__itemContainer"><span>{{ post.date | date_to_string }}</span> &raquo; <a class="u-PostsList__item" href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
-</ul>
+</ul> -->

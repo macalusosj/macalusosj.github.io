@@ -12,7 +12,7 @@ figureClassOne:
 figureCaptionOne: The Hudson Valley, Vassar College
 u-asideTitle: "Categories"
 figureClassThumb:
-imageThumb: "hudsonvalley.jpg"
+imageThumb: "hudsonvalley-thumb.jpg"
 ---
 
 This slideshow is a feature for Vassar Admissions. It was built on [AnythingSlider](https://github.com/CSS-Tricks/AnythingSlider "AnythingSlider"). Designed with Illustrator and hand-coded in Dreamweaver.

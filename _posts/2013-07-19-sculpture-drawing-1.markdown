@@ -11,6 +11,7 @@ imageWidthOne: 2000
 figureClassOne:
 figureCaptionOne: "Stooge, 2013, 5cm x 10cm, Pencil on paper"
 u-asideTitle: "Categories"
+imageThumb: "sculpture-drawing-idea-1-thumb.jpg"
 ---
 
 A still life/sculpture I put together with random objects sitting around in my basement studio.

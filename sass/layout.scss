@@ -59,7 +59,7 @@
 			padding: 1.953em 0 1.563em;
 		}
 
-		#u-Masthead:before {
+		.icon-favicon:before {
 			position: absolute;
 		}
 
@@ -73,7 +73,7 @@
 		}
 
 		.u-Masthead__siteDescription {
-			margin-left: 3.815em;
+			margin-left: 4.768em;
 		}
 
 		.u-lContent {
@@ -86,9 +86,13 @@
 		}
 
 		.u-PostsList__itemContainer {
-			/*float: left;
-			padding-right: 3%;
-			width: 33%;*/
+			float: none;
+			padding-right: 0;
+			width: 100%;
+		}
+
+		li.u-PostsList__itemContainer:nth-child(3n+1) {
+			clear: left;
 		}
 
 		.u-pageTitle--above {
@@ -171,6 +175,15 @@
 
 		}
 
+		.u-Figure__caption--title,
+		.u-Figure__caption--date {
+			display: block;
+		}
+
+		.u-Figure__caption--title {
+			margin-bottom: .328em;
+		}
+
 		.u-Figure--left {
 			float: left;
 			margin: 0 1.563em 1.563em 0;
@@ -222,7 +235,7 @@
 		}
 
 		.u-VCard--person__adr {
-			@include v-pixel-fallback ('margin-top', -.512rem);
+			@include v-pixel-fallback ('margin-top', -.21rem);
 		}
 
 		.u-VCard--person__info {
@@ -263,6 +276,12 @@
 			padding-right: 7.451%;
 			padding-left: 7.451%;
 			width: 80%;
+		}
+
+		.u-PostsList__itemContainer {
+			float: left;
+			padding-right: 3%;
+			width: 33%;
 		}
 
 		.u-lAside {
