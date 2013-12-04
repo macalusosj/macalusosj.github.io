@@ -6,17 +6,15 @@ bodyClass: main u-PostsListPage
 
 <h2 class="u-pageTitle--above">Recent Projects</h2>
 
-<p>A list of completed design and art projects.</p>
-
 <ul class="u-PostsList u-PostsList--home">
 {% for post in site.posts %}
 	<li class="u-PostsList__itemContainer">
 		<a class="u-PostsList__item" href="{{ post.url }}">
 			<div class="figure u-Figure {{ post.figureClassThumb }}">
 				<figure>
-					<img class="u-Figure__image" src="{{ site.url }}/images/{{ post.imageThumb }}" height="550px" width="550px" alt="{{ post.figureCaptionOne }}" />
+					<img class="u-Figure__image" src="{{ site.url }}/images/{{ post.imageThumb }}" height="550" width="550" alt="{{ post.figureCaptionOne }}" />
 						<figcaption>
-							<div class="figcaption u-Figure__caption"><b class="u-Figure__caption--title">{{ post.title }}</b><b class="u-Figure__caption--date">{{ post.date | date_to_string }}</b></div>
+							<div class="figcaption u-Figure__caption"><b class="u-Figure__caption--title">{{ post.title }}</b></div>
 						</figcaption>
 				</figure>
 			</div>
@@ -24,10 +22,3 @@ bodyClass: main u-PostsListPage
 	</li>
 {% endfor %}
 </ul>
-
-<!-- <h2 class="u-pageTitle--above">{{ page.title }}</h2>
-<ul class="u-PostsList">
-{% for post in site.posts %}
-	<li class="u-PostsList__itemContainer"><span>{{ post.date | date_to_string }}</span> &raquo; <a class="u-PostsList__item" href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-</ul> -->

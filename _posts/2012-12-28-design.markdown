@@ -9,7 +9,7 @@ imageFileOne: "sociology.jpg"
 imageHeightOne: 719
 imageWidthOne: 940
 figureClassOne:
-figureCaptionOne: Sociology Department Website, Vassar College
+figureCaptionOne:
 u-asideTitle: "Categories"
 figureClassThumb:
 imageThumb: "sociology-thumb.jpg"

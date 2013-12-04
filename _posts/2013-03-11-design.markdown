@@ -9,7 +9,7 @@ imageFileOne: "hudsonvalley.jpg"
 imageHeightOne: 920
 imageWidthOne: 1075
 figureClassOne:
-figureCaptionOne: The Hudson Valley, Vassar College
+figureCaptionOne:
 u-asideTitle: "Categories"
 figureClassThumb:
 imageThumb: "hudsonvalley-thumb.jpg"

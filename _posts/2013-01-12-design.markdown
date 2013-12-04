@@ -9,7 +9,7 @@ imageFileOne: "roc.jpg"
 imageHeightOne: 1505
 imageWidthOne: 940
 figureClassOne:
-figureCaptionOne: Rainbow Over Cambridge
+figureCaptionOne:
 u-asideTitle: "Categories"
 figureClassThumb:
 imageThumb: "roc-thumb.jpg"

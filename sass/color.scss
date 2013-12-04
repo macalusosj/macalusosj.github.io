@@ -16,6 +16,10 @@
 		color: $grey00;
 	}
 
+	html {
+		border-top: .328em solid $blue01;
+	}
+
 	/* classes
 	---------------- */
 
@@ -37,7 +41,11 @@
 	.u-VCard--person__url {
 		/*link-colors($normal, $hover, $active, $visited, $focus)*/
 	    @include link-colors(white, $blue03, $blue04, white, $blue04);
-	    @include border-radius(3px, 3px);
+	    @include border-radius(0 0 3px 3px);
+	}
+
+	.ac-NavAnchor--top {
+	    @include border-radius(3px 3px 3px 3px);
 	}
 
 	.u-lContent,
@@ -65,6 +73,10 @@
 	}
 
 	@media screen and (min-width: 38em) {
+
+		html {
+			border-top: 0;
+		}
 
 		.u-lContent,
 		.u-lAside {
