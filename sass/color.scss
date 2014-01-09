@@ -1,10 +1,13 @@
-	@import "compass";
-	@import "color-values";
+/*	==========================================================================
+	Color
+	========================================================================== */
+
+	@import "mixins";
 
 	a {
 		/*link-colors($normal, $hover, $active, $visited, $focus)*/
-	    @include link-colors($blue01, $blue03, $blue04, $blue01, $blue04);
-	    @include transition(all .23s ease-in-out);
+	    @include link-colors($purple08, $purple07, $purple07, $purple08, $purple08);
+	    transition: all .23s ease-in-out;
 	}
 
 	html,
@@ -13,39 +16,41 @@
 	input,
 	select,
 	textarea {
-		color: $grey00;
+		color: $purple08;
 	}
 
 	html {
-		border-top: .328em solid $blue01;
+		border-top: .328em solid $purple08;
 	}
 
 	/* classes
 	---------------- */
+	.u-lHeader { /* background image in icons.scss */
+	}
 
 	#u-Masthead {
 		text-decoration: none;
 	}
 
 	.ac-NavAnchor {
-		background: $blue01;
+		background: $purple08;
 		text-decoration: none;
 	}
 
 	.ac-NavAnchor--menu,
 	.ac-NavAnchor--top,
-	.u-VCard--person__item--socialTwitter,
-	.u-VCard--person__item--socialRdio,
-	.u-VCard--person__item--socialSoundCloud,
-	.u-VCard--person__item--socialGitHub,
 	.u-VCard--person__url {
 		/*link-colors($normal, $hover, $active, $visited, $focus)*/
-	    @include link-colors(white, $blue03, $blue04, white, $blue04);
-	    @include border-radius(0 0 3px 3px);
+	    @include link-colors(white, $purple05, $purple03, white, $purple05);
+	    border-radius: 0 0 3px 3px;
 	}
 
 	.ac-NavAnchor--top {
-	    @include border-radius(3px 3px 3px 3px);
+	    border-radius: 3px 3px 3px 3px;
+	}
+
+	.u-NavSite {
+		border-right: 0px;
 	}
 
 	.u-lContent,
@@ -59,18 +64,44 @@
 		border: .09em solid $grey03;
 	}
 
-	.u-Masthead {
-		border-bottom: .09em solid $grey03;
-	}
-
 	.u-lFooter {
-		background: $blue00;
+		background: $purple07;
 		color: white
 	}
 
 	.u-VCard {
-		border-bottom: .09em solid white;
+		border-bottom: .09em solid $purple05;
 	}
+
+	/* gruniticons */
+
+	.forest {
+		background-repeat: repeat-x;
+		background-position-x: center
+	}
+
+	.icon {
+		transition: none;
+		background-repeat: no-repeat;
+	}
+
+	.icon-Menu--top,
+	.icon-Menu,
+	.icon-Logo {
+		transition: none;
+		background-repeat: no-repeat;
+	}
+
+	.icon-Menu--top,
+	.icon-Menu {
+		background-position: center center;
+	}
+
+	.u-lHeader .icon-Logo {
+		background-position: top center;
+	}
+
+	/* end grunticons */
 
 	@media screen and (min-width: 38em) {
 
@@ -81,6 +112,10 @@
 		.u-lContent,
 		.u-lAside {
 			border-bottom: 0px;
+		}
+
+		.u-NavSite {
+			border-right: 1px solid $purple02;
 		}
 
 	}

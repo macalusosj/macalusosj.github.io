@@ -1,4 +1,4 @@
-@import "color-values";
+@import "mixins";
 
 /*	==========================================================================
    	Skip link for accessibility
@@ -30,10 +30,6 @@ overflow: hidden;*/
 .ac-skipLink {
 	position:absolute;
 	top:-9999em;
-	-moz-transition:background 100ms ease-in;
-	-ms-transition:background 100ms ease-in;
-	-o-transition:background 100ms ease-in;
-	-webkit-transition:background 100ms ease-in;
 	transition:background 100ms ease-in
 }
 
@@ -41,8 +37,6 @@ overflow: hidden;*/
 .ac-skipLink:focus,
 .ac-skipLink:hover {
 	background:none repeat scroll 0 0 #ee6910;
-	-moz-box-shadow: 0 1px 5px 0 rgba(50, 50, 50, .5);
-	-webkit-box-shadow: 0 1px 5px 0 rgba(50, 50, 50, .5);
 	box-shadow: 0 1px 5px 0 rgba(50, 50, 50, .5);
 	font-family:arial;
 	font-weight:bold;

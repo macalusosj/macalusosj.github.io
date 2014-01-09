@@ -15,6 +15,6 @@ figureClassThumb:
 imageThumb: "mbarison-thumb.png"
 ---
 
-A responsive one-page site with an emphasis on simplicity and performance on wireless mobile internet connections. 
+A responsive one-page site with an emphasis on simplicity and performance on wireless mobile internet connections.
 
 [<b class="u-pageLink--external">For matthewbarison.com</b>](http://matthewbarison.com "For matthewbarison.com")

@@ -48,3 +48,6 @@ min/
 *.sublime-workspace
 design-files/
 *.rb
+node_modules/
+concatenated/
+prefixed/

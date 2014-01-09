@@ -1,3 +1,44 @@
+$blue00: #073763;
+$blue01: #0b5394;
+$blue02: #3d85c6;
+$blue03: #6fa8dc;
+$blue04: #9fc5e8;
+$blue05: #5D7583;
+$purple01: #E6E6F3;
+$purple02: #D8D9ED;
+$purple03: #C2C3E2;
+$purple04: #B4AFD7;
+$purple05: #A29FCE;
+$purple06: #8D90C7;
+$purple07: #696DB2;
+$purple08: #303251;
+$grey00: #474747;
+$grey03: #ccc;
+
+@mixin link-colors($normal, $hover: false, $active: false, $visited: false, $focus: false) {
+  color: $normal;
+  @if $visited {
+    &:visited {
+      color: $visited;
+    }
+  }
+  @if $focus {
+    &:focus {
+      color: $focus;
+    }
+  }
+  @if $hover {
+    &:hover {
+      color: $hover;
+    }
+  }
+  @if $active {
+    &:active {
+      color: $active;
+    }
+  }
+}
+
 @mixin v-pixel-fallback ( $property, $rems, $keyword: null, $vertical-radius: false, $important: false ) {
 
 	@if $important {
