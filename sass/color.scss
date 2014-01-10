@@ -25,8 +25,6 @@
 
 	/* classes
 	---------------- */
-	.u-lHeader { /* background image in icons.scss */
-	}
 
 	#u-Masthead {
 		text-decoration: none;
@@ -73,11 +71,20 @@
 		border-bottom: .09em solid $purple05;
 	}
 
+	/*  Menu  */
+
+	.art .u-NavSite__item--art .u-NavSite__item,
+	.bio .u-NavSite__item--about .u-NavSite__item,
+	.design .u-NavSite__item--design .u-NavSite__item { 
+		/*link-colors($normal, $hover, $active, $visited, $focus)*/
+	    @include link-colors($purple07, $purple08, $purple08, $purple07, $purple08);
+	}
+
 	/* gruniticons */
 
 	.forest {
 		background-repeat: repeat-x;
-		background-position-x: center
+		background-position: bottom center;
 	}
 
 	.icon {
@@ -107,6 +114,10 @@
 
 		html {
 			border-top: 0;
+		}
+
+		.u-lHeader {
+			border-bottom: .328em solid $purple08;
 		}
 
 		.u-lContent,

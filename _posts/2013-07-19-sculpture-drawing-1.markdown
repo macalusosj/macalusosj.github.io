@@ -1,7 +1,7 @@
 ---
 layout: post-art
 aside: art
-bodyClass: u-Post
+bodyClass: u-Post art
 title: "Stooge: an idea for a sculpture"
 date:   2013-07-19 21:45:48
 categories: art drawing sculpture still-life

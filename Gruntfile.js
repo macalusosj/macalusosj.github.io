@@ -49,7 +49,7 @@ module.exports = function(grunt) {
     "comment-media-queries": {
       default_options: {
         files: {
-          'css/style.ie8.css': ['css/prefixed/style-fallback.css']
+          'css/style.ie8.css': ['css/prefixed/style-png.css']
         }
       }
     },

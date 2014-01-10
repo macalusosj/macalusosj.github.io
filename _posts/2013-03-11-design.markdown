@@ -1,7 +1,7 @@
 ---
 layout: post-design
 aside: design
-bodyClass: u-Post
+bodyClass: u-Post design
 title: "The Hudson Valley, Vassar College"
 date: 2013-03-11 12:22:34
 categories: design slideshow

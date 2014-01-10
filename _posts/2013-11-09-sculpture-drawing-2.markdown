@@ -1,7 +1,7 @@
 ---
 layout: post-art
 aside: art
-bodyClass: u-Post
+bodyClass: u-Post art
 title: "Mic check: an idea for a sculpture"
 date:   2013-11-09 21:44:48
 categories: art drawing sculpture still-life

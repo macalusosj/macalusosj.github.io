@@ -1,7 +1,7 @@
 ---
 layout: post-design
 aside: design
-bodyClass: u-Post
+bodyClass: u-Post design
 title: "Rainbow Over Cambridge"
 date: 2013-01-12 12:22:34
 categories: design responsive wordpress

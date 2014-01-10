@@ -114,7 +114,7 @@
 	---------------- */
 
 	.u-Masthead__siteName {
-		line-height: .262;
+		line-height: 1;
 		@include v-pixel-fallback ('font-size', 2.441rem);
 		/*text-transform: lowercase;*/
 	}
@@ -140,22 +140,6 @@
 	.u-PostsList {
 		list-style: none;
 	}
-
-	/*  Icons  */
-
-	/*.icon-favicon:before {
-		@include v-pixel-fallback ('font-size', 2.441rem);
-	}
-
-	.u-VCard--person__url:before,
-	.u-VCard--person__item--socialTwitter:before,
-	.u-VCard--person__item--socialRdio:before,
-	.u-VCard--person__item--socialSoundCloud:before,
-	.u-VCard--person__item--socialGitHub:before {
-		@include v-pixel-fallback ('font-size', 1.953rem);
-	}*/
-
-	/*  Menu  */
 
 	.ac-NavAnchor {
 		font-family: 'Mercury Text G1 A', 'Mercury Text G1 B', serif;
@@ -236,6 +220,14 @@
 		========================================================================== */
 
 	@media screen and (min-width: 38em) {
+
+		.u-Masthead__siteName {
+			@include v-pixel-fallback ('font-size', 3.052rem);
+		}
+
+		.u-Masthead__siteDescription {
+			@include v-pixel-fallback ('font-size', 1.25rem);
+		}
 
 		/*  Menu  */
 

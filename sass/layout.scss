@@ -62,32 +62,17 @@
 		---------------- */
 
 		.u-lHeader {
-			padding: 3.052em 0 1.563em;
-			height: 12em;
-			margin-bottom: 1.563em;
-			text-align: center;
-		}
-
-		.icon-favicon:before {
-			position: absolute;
-		}
-		.u-lHeader .icon-favicon {
-			/*transform: rotate(45deg);*/
-		}
-		
-		.u-lHeader .icon-favicon:before {
-			position: relative;
+			height: 9.313em;
+			margin-bottom: 1.953em;
 			text-align: center;
 		}
 
 		.u-Masthead__siteName {
-			padding-top: 1.25em;
+			margin-bottom: .168em;
 		}
 
-		.u-Masthead__siteDescription {
-		}
-
-		.u-lContent {
+		.u-Masthead {
+			padding-top: 3.815em;
 		}
 
 		.u-PostsList {
@@ -108,6 +93,7 @@
 
 		.u-pageTitle--above {
 			margin-top: -.107em;
+			margin-bottom: .8em
 		}
 
 		.u-pageTitle--below {
@@ -300,6 +286,14 @@
 			padding-right: 12.5%;
 		}
 
+		.u-lHeader {
+			height: 11.642em;
+		}
+
+		.u-Masthead__siteName {
+			margin-bottom: 0;
+		}
+
 		.u-lMain {
 			float: right;
 			padding-left: 0;
@@ -314,6 +308,13 @@
 			width: 80%;
 		}
 
+		.u-PostsListPage .u-lContent {
+			float: left;
+			padding-right: 0;
+			padding-left: 7.451%;
+			width: 100%;
+		}
+
 		.u-PostsList__itemContainer {
 			float: left;
 			padding-right: 3%;
@@ -325,6 +326,10 @@
 			width: 20%;
 			padding-top: 0;
 
+		}
+
+		.u-PostsListPage .u-lAside {
+			display: none;
 		}
 
 		.u-lFooter {

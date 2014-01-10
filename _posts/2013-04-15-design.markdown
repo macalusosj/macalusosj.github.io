@@ -1,7 +1,7 @@
 ---
 layout: post-design
 aside: design
-bodyClass: u-Post
+bodyClass: u-Post design
 title: "Matthew K. Barison, Attorney"
 date: 2013-04-15 14:28:19
 categories: design responsive
