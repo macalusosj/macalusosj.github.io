@@ -12,18 +12,6 @@ Description: Simple 3 column responsive theme with menu below main content. Web 
       grunticon(["{{ site.url }}/css/style-svg.minified.css", "{{ site.url }}/css/style-png.minified.css", "{{ site.url }}/css/style-fallback.minified.css"]);
     </script>
   <noscript><link href="{{ site.url }}/css/style-fallback.minified.css" rel="stylesheet"></noscript>
-  <title>Jeff Macaluso - {{ page.title }}</title>
-
-  <link rel="apple-touch-icon" href="{{ site.url }}/images/favicon-512.png">
-  <link rel="icon" href="{{ site.url }}/images/favicon-128.png">
-  <!--[if IE]><link rel="shortcut icon" href="{{ site.url }}/images/favicon.ico"><![endif]-->
-  <!-- or, set /favicon.ico for IE10 win -->
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="{{ site.url }}/images/favicon-512.png">
-
-  <meta property="og:title" content="Jeff Macaluso" />
-  <meta property="og:description" content="Web designer. Artist" />
-  <meta property="og:image" content="{{ site.url }}/images/favicon-512.png" />
 
   <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7362032/783882/css/fonts.css" />
 
@@ -33,6 +21,25 @@ Description: Simple 3 column responsive theme with menu below main content. Web 
   <!--[if (gte IE 9)|(lt IE 8)]><!-->
     <!-- <link href="{{ site.url }}/css/style.minified.css" rel="stylesheet" type="text/css" /> -->
   <!--<![endif]-->
+
+  <title>Jeff Macaluso - {{ page.title }}</title>
+
+  <link rel="apple-touch-icon" href="{{ site.url }}/images/favicon-512.png">
+  <link rel="icon" href="{{ site.url }}/images/favicon-128.png">
+  <!--[if IE]><link rel="shortcut icon" href="{{ site.url }}/images/favicon.ico"><![endif]-->
+  <!-- or, set /favicon.ico for IE10 win -->
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="{{ site.url }}/images/favicon-512.png">
+
+  <meta name="keywords" content="{{ page.categories | join:', ' }}">
+  <meta name="description" content="{{ page.description }}">
+
+  <!-- <meta name="keywords" content="HTML, HyperText Markup Language, Validation, W3C Markup Validation Service">
+  <meta name="description" content="W3C's easy-to-use markup validation service, based on SGML and XML parsers."> -->
+
+  <meta property="og:title" content="Jeff Macaluso" />
+  <meta property="og:description" content="Web designer. Artist" />
+  <meta property="og:image" content="{{ site.url }}/images/favicon-512.png" />
 
   <script type="text/javascript">
 

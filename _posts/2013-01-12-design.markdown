@@ -5,6 +5,7 @@ bodyClass: u-Post design
 title: "Rainbow Over Cambridge"
 date: 2013-01-12 12:22:34
 categories: design responsive wordpress
+description: a custom responsive wordpress theme
 imageFileOne: "roc.jpg"
 imageHeightOne: 1505
 imageWidthOne: 940

@@ -4,7 +4,8 @@ aside: design
 bodyClass: u-Post design
 title: "The Hudson Valley, Vassar College"
 date: 2013-03-11 12:22:34
-categories: design slideshow
+categories: design slideshow AnythingSlider
+description: An AnythingSlider slideshow feature for Vassar Admissions
 imageFileOne: "hudsonvalley.jpg"
 imageHeightOne: 920
 imageWidthOne: 1075

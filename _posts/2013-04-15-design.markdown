@@ -4,7 +4,8 @@ aside: design
 bodyClass: u-Post design
 title: "Matthew K. Barison, Attorney"
 date: 2013-04-15 14:28:19
-categories: design responsive
+categories: design responsive performance
+description: Responsive one-page design with an emphasis on simplicity and performance over wireless mobile internet connections
 imageFileOne: "mbarison-desktop.png"
 imageHeightOne: 966
 imageWidthOne: 1292
@@ -15,6 +16,6 @@ figureClassThumb:
 imageThumb: "mbarison-thumb.png"
 ---
 
-A responsive one-page site with an emphasis on simplicity and performance on wireless mobile internet connections.
+A responsive one-page site with an emphasis on simplicity and performance over wireless mobile internet connections.
 
 [<b class="u-pageLink--external">For matthewbarison.com</b>](http://matthewbarison.com "For matthewbarison.com")
