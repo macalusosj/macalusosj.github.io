@@ -19,10 +19,6 @@
 		color: $purple08;
 	}
 
-	html {
-		border-top: .328em solid $purple08;
-	}
-
 	/* classes
 	---------------- */
 
@@ -48,12 +44,15 @@
 	}
 
 	.u-NavSite {
-		border-right: 0px;
 	}
 
 	.u-lContent,
 	.u-lAside {
 		border-bottom: .09em solid $grey03;
+	}
+
+	.u-lHeader {
+		border-bottom: .168em solid $purple08;
 	}
 
 	/*  Figure  */
@@ -104,21 +103,11 @@
 		background-position: center center;
 	}
 
-	.u-lHeader .icon-Logo {
-		background-position: top center;
-	}
-
 	/* end grunticons */
 
 	@media screen and (min-width: 38em) {
 
-		html {
-			border-top: 0;
-		}
 
-		.u-lHeader {
-			border-bottom: .328em solid $purple08;
-		}
 
 		.u-lContent,
 		.u-lAside {
@@ -126,7 +115,6 @@
 		}
 
 		.u-NavSite {
-			border-right: 1px solid $purple02;
 		}
 
 	}

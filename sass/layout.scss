@@ -41,7 +41,6 @@
 		}
 
 		body {
-			position: relative;
 		}
 
 		h1,h2,h3,h4,h5,h6 {
@@ -62,17 +61,14 @@
 		---------------- */
 
 		.u-lHeader {
-			height: 9.313em;
 			margin-bottom: 1.953em;
-			text-align: center;
 		}
 
 		.u-Masthead__siteName {
-			margin-bottom: .168em;
 		}
 
 		.u-Masthead {
-			padding-top: 3.815em;
+			display: inline-block;
 		}
 
 		.u-PostsList {
@@ -135,6 +131,7 @@
 
 		.u-NavSite {
 			position: relative;
+			clear: left;			
 			li a {
 				display: block;
 				text-decoration: none;
@@ -143,10 +140,6 @@
 				margin: 0;
 				padding-left: 0;
 			}
-		}
-
-		.u-NavSite li { /* bem up these list items */
-			float: none;
 		}
 
 		.u-NavSite {
@@ -272,47 +265,32 @@
 
 	}
 
-	@media screen and (min-width: 38em) {
+	@media screen and (min-width: 50em) {
 
 		/* menu and top icon */
 		.ac-NavAnchor--menu,
 		.u-NavSite .ac-NavAnchor--top {
 			display: none;
 		}
-
 		.u-lHeader,
-		.u-lFooter {
+		.u-lFooter,
+		.u-lMain,
+		.u-NavSite {
 			padding-left: 12.5%;
 			padding-right: 12.5%;
 		}
 
 		.u-lHeader {
-			height: 11.642em;
 		}
 
 		.u-Masthead__siteName {
 			margin-bottom: 0;
 		}
 
-		.u-lMain {
-			float: right;
-			padding-left: 0;
-			padding-right: 12.5%;
-			width: 75%;
-		}
-
 		.u-lContent {
-			float: left;
-			padding-right: 7.451%;
-			padding-left: 7.451%;
-			width: 80%;
 		}
 
 		.u-PostsListPage .u-lContent {
-			float: left;
-			padding-right: 0;
-			padding-left: 7.451%;
-			width: 100%;
 		}
 
 		.u-PostsList__itemContainer {
@@ -322,10 +300,6 @@
 		}
 
 		.u-lAside {
-			float: right;
-			width: 20%;
-			padding-top: 0;
-
 		}
 
 		.u-PostsListPage .u-lAside {
@@ -347,12 +321,38 @@
 		------- */
 
 		.u-NavSite {
-			float: left;
-			width: 25%;
-			margin-top: -.107em;
- 			padding-left: 12.5%;
-			padding-right: 0;
+			margin-top: 0;
+			margin-bottom: 0;
 			padding-top: 0;
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+		.u-NavSite__itemContainer {
+			display: inline-block;
+		}
+	}
+
+	@media screen and (min-width: 62.5em) {
+
+		.u-lHeader,
+		.u-lFooter,
+		.u-lMain,
+		.u-NavSite {
+			padding-left: 18.19%;
+			padding-right: 18.19%;
+		}
+
+	}
+
+	@media screen and (min-width: 75em) {
+
+		.u-lHeader,
+		.u-lFooter,
+		.u-lMain,
+		.u-NavSite {
+			padding-left: 22.738%;
+			padding-right: 22.738%;
 		}
 
 	}
