@@ -1,0 +1,45 @@
+@import "../imports";
+
+/* FOOTER */
+
+@media screen {
+
+	/*  vCard  */
+
+	.u-VCard--person {
+		padding-top: 1.563em;
+		padding-bottom: .64em;
+		margin-bottom: .8em;
+		position: relative;
+	}
+
+	.u-VCard--person__url:before {
+		position: absolute;
+		top: 1em;
+	}
+
+	.u-VCard--person__fn,
+	.u-VCard--person__title {
+		display: inline-block;
+	}
+
+	.u-VCard--person__item--givenName,
+	.u-VCard--person__adr {
+		@include v-pixel-fallback ('margin-left', 2.441rem);
+	}
+
+	.u-VCard--person__adr {
+		@include v-pixel-fallback ('margin-top', -.21rem);
+	}
+
+	.u-VCard--person__info {
+		list-style: none;
+		margin: .8em 0 0 0;
+		padding: 0;
+	}
+
+	.u-VCard--person__itemContainer {
+		display: inline-block;
+	}
+
+}

@@ -1,0 +1,72 @@
+@import "../imports";
+
+/* NAVIGATION */
+
+@media screen {
+
+	.ac-NavAnchor {
+		padding: .328em .41em;
+	}
+	.ac-NavAnchor--menu,
+	.ac-NavAnchor--top {
+		position: absolute;
+		right: 5%;
+	}
+	.ac-NavAnchor--menu {
+		top: 0;
+	}
+	.ac-NavAnchor--top {
+		top: 0;
+	}
+	.u-NavSite {
+		position: relative;
+		clear: left;			
+		li a {
+			display: block;
+			text-decoration: none;
+		}
+		ul {
+			margin: 0;
+			padding-left: 0;
+		}
+	}
+	.u-NavSite {
+		margin-top: 1.563em;
+		margin-bottom: 1.563em;
+		padding-top: 1.953em;
+	}
+	#navigation:target {
+		position: absolute;
+		top: 2em;
+		left: 0;
+		right: 0;
+		padding: 4rem 0 0;
+		background: $purple01;
+		margin-top: 0;
+		a {
+			color: white;
+		}
+	}
+
+}
+
+@media screen and (min-width: 50em) {
+
+	/* menu and top icon */
+	.ac-NavAnchor--menu,
+	.u-NavSite .ac-NavAnchor--top {
+		display: none;
+	}
+	.u-NavSite {
+		margin-top: 0;
+		margin-bottom: 0;
+		padding-top: 0;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.u-NavSite__itemContainer {
+		display: inline-block;
+	}
+
+}

@@ -1,0 +1,36 @@
+@import "../imports";
+
+/* FIGURE */
+
+@media screen {
+
+	.u-Figure {
+		margin: 0 0 1.563em 0;
+	}
+	.u-Figure__image {
+	}
+	.bio .u-Figure__image {
+		border-radius: 15em;
+	}
+	.u-Figure__caption {
+	}
+	.u-Figure__caption--title,
+	.u-Figure__caption--date {
+		display: block;
+	}
+	.u-Figure__caption--title {
+		margin-bottom: .328em;
+	}
+	.u-Figure--left {
+		float: left;
+		margin: 0 1.563em 1.563em 0;
+	}
+	.u-Figure--right {
+		float: right;
+		margin: 0 0 1.563em 1.563em;
+	}
+	.u-Figure--third {
+		width: 33%;
+	}
+
+}
