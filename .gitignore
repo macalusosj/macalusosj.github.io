@@ -51,3 +51,4 @@ design-files/
 node_modules/
 concatenated/
 prefixed/
+*.swp

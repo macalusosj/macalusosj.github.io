@@ -117,8 +117,8 @@
 
 	.u-Masthead__siteName {
 		line-height: 1;
+        margin-bottom: 0;
 		@include v-pixel-fallback ('font-size', 2.441rem);
-		/*text-transform: lowercase;*/
 	}
 
 	.u-Masthead__siteDescription,
@@ -145,7 +145,6 @@
 
 	.ac-NavAnchor {
 		font-family: $serif;
-		/*font-family: 'Ideal Sans A', 'Ideal Sans B' sans-serif;*/
 		font-weight: 700;
 		font-style: normal;
 		@include v-pixel-fallback ('font-size', 1.25rem);
@@ -153,7 +152,6 @@
 
 	.u-NavSite {
 		font-family: $serif;
-		/*font-family: 'Ideal Sans A', 'Ideal Sans B' sans-serif;*/
 		font-weight: 700;	
 		font-style: normal;
 		@include v-pixel-fallback ('font-size', 1.953rem);

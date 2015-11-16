@@ -181,7 +181,7 @@ module.exports = function(grunt) {
       },
 
       css: {
-        files: ['sass/*.scss'],
+        files: ['sass/**/*.scss'],
         tasks: ['sass', 'autoprefixer', 'cssmin', 'comment-media-queries'],
         options: {
           spawn: false,
@@ -197,7 +197,7 @@ module.exports = function(grunt) {
       },
 
       jekyll: {
-        files: ['*.html', '_posts/*.markdown', '_layouts/*.html', '_includes/*.html', 'sass/*.scss', 'css/*.css', 'images/*.{png,jpg,gif}', 'js/**/*.js'],
+        files: ['*.html', '*.markdown', '_posts/*.markdown', '_layouts/*.html', '_includes/*.html', 'sass/*.scss', 'css/*.css', 'images/*.{png,jpg,gif}', 'js/**/*.js'],
         tasks: ['jekyll:prod'],
         options: {
           spawn: false,

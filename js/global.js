@@ -1,5 +1,5 @@
 WebFontConfig = {
-	google: { families: [ 'Lora:400,700:latin', 'Open+Sans:400italic,700italic,700,400:latin' ] }
+    google: { families: [ 'Lora:400,700:latin', 'Open+Sans:400,300,300italic,400italic,700,700italic:latin' ] }
 };
 
 (function() {

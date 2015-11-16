@@ -53,10 +53,12 @@
 @media screen and (min-width: 50em) {
 
 	/* menu and top icon */
-	.ac-NavAnchor--menu,
+    .ac-NavAnchor--menu,
+    .ac-NavAnchor--menu.icon,
 	.u-NavSite .ac-NavAnchor--top {
 		display: none;
 	}
+
 	.u-NavSite {
 		margin-top: 0;
 		margin-bottom: 0;

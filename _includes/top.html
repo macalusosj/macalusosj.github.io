@@ -1,9 +1,11 @@
 <!DOCTYPE html>
+
 <!--  
 Author: Jeff Macaluso
 Author URI: http://jeffmacaluso.com/
-Description: Simple 3 column responsive theme with menu below main content. Web development credit and a huge amount of gratitude to my colleague and mentor Raymond Schwartz (@skeeter).
+Description: Simple responsive theme with menu below main content.
 -->
+
 <html class="no-js {{ page.layout }} {{ page.bodyClass }}" lang="en-US">
 <head>
   <meta charset="UTF-8">
@@ -17,7 +19,7 @@ Description: Simple 3 column responsive theme with menu below main content. Web 
     <link href="{{ site.url }}/css/style.ie8.css" rel="stylesheet" type="text/css" />
   <![endif]-->
 
-  <title>Jeff Macaluso - {{ page.title }}</title>
+  <title>{{ page.title }} - Jeff Macaluso</title>
 
   <link rel="apple-touch-icon" href="{{ site.url }}/images/favicon-512.png">
   <link rel="icon" href="{{ site.url }}/images/favicon-128.png">
@@ -29,12 +31,16 @@ Description: Simple 3 column responsive theme with menu below main content. Web 
   <meta name="keywords" content="{{ page.categories | join:', ' }}">
   <meta name="description" content="{{ page.description }}">
 
-  <!-- <meta name="keywords" content="HTML, HyperText Markup Language, Validation, W3C Markup Validation Service">
-  <meta name="description" content="W3C's easy-to-use markup validation service, based on SGML and XML parsers."> -->
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:description" content="{{ page.description }}" />
+  <meta property="og:image" content="{{ site.url }}/images/{{ page.imageThumb }}" />
 
-  <meta property="og:title" content="Jeff Macaluso" />
-  <meta property="og:description" content="Web designer. Artist" />
-  <meta property="og:image" content="{{ site.url }}/images/favicon-512.png" />
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@sjmaq">
+  <meta name="twitter:creator" content="@sjmaq">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="{{ page.description }}">
+  <meta name="twitter:image" content="{{ site.url }}/images/{{ page.imageThumb }}">
 
   <script type="text/javascript">
 

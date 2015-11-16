@@ -23,7 +23,7 @@ img, embed, object, video {
 /* end ie stuff */
 
 @media screen {
-
+    
 	* { 
 		box-sizing: border-box;
 	}
@@ -31,10 +31,8 @@ img, embed, object, video {
 		margin: 0;
 		padding: 0;
 	}
-	body {
-	}
 	h1,h2,h3,h4,h5,h6 {
-		margin-bottom: .41em;
+		margin-bottom: .21em;
 	}
 	hr {
 	}
@@ -44,13 +42,10 @@ img, embed, object, video {
 			top: -0.8em;  
 			padding: 0 0.25em;
 	}
-	.u-lHeader {
-		margin-bottom: 1.953em;
-	}
 	.u-Masthead__siteName {
 	}
 	.u-Masthead {
-		display: inline-block;
+		display: block;
 	}
 	.u-PostsList {
 		margin-left: 0;
@@ -76,15 +71,18 @@ img, embed, object, video {
 		margin: 0 0 1.953em;
 	}
 	.u-lFooter {
-		padding: .512em 0 1.953em;
 		position: relative;
 	}
-	.u-lHeader,
 	.u-lFooter,
 	.u-lMain,
 	.u-NavSite {
-		padding-left: 5%;
-		padding-right: 5%;
+		padding: 2.441em 5%;
+	}
+	.u-lHeader {
+		padding: 3.052em 5% 0;
+	}
+	.u-Masthead {
+		padding: 0 0 1.953em;
 	}
 	.u-lAside {
 		padding-top: 1.563em;
@@ -120,8 +118,6 @@ img, embed, object, video {
 	.u-lFooter,
 	.u-lMain,
 	.u-NavSite {
-		padding-left: 12.5%;
-		padding-right: 12.5%;
 	}
 	.u-Masthead__siteName {
 		margin-bottom: 0;
@@ -130,8 +126,8 @@ img, embed, object, video {
 	}
 	.u-PostsList__itemContainer {
 		float: left;
-		margin-right: 3%;
-		width: 31%;
+		margin-right: 5%;
+		width: 29%;
 	}
 	li.u-PostsList__itemContainer:nth-child(3n+1) {
 		clear: left;
@@ -165,8 +161,6 @@ img, embed, object, video {
 	.u-lFooter,
 	.u-lMain,
 	.u-NavSite {
-		padding-left: 18.19%;
-		padding-right: 18.19%;
 	}
 
 }
@@ -177,8 +171,6 @@ img, embed, object, video {
 	.u-lFooter,
 	.u-lMain,
 	.u-NavSite {
-		padding-left: 22.738%;
-		padding-right: 22.738%;
 	}
 
 }
