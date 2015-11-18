@@ -21,12 +21,18 @@
 		font-style: normal;
 		line-height: 1.563;
 	}
+	.u-Post .u-lContent {
+        h1, h2, h3, h4, h5, h6, p {
+		    @include v-pixel-fallback ('max-width', 40rem);
+        }
+    }
 	h1,h2,h3,h4,h5,h6 {
 		font-family: $serif;
 		font-weight: 700;
 		font-style: normal;
 		line-height: 1.25;
-	}
+		margin: 0 auto .21em;
+    }
 	h1, h2 {
 		@include v-pixel-fallback ('font-size', 1.563rem);
 	}
@@ -39,7 +45,7 @@
 	hr {
 	}
 	p {
-		margin-bottom: 1.563em;
+		margin: 0 auto 1.563em;
 	}
 	ul, ol {
 		margin: 0 0 1.563em 3.052em;

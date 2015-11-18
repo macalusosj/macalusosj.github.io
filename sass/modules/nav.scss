@@ -24,6 +24,7 @@
 		li a {
 			display: block;
 			text-decoration: none;
+            text-align: center;
 		}
 		ul {
 			margin: 0;
@@ -31,20 +32,18 @@
 		}
 	}
 	.u-NavSite {
-		margin-top: 1.563em;
-		margin-bottom: 1.563em;
-		padding-top: 1.953em;
+		padding: 1.188em;
 	}
 	#navigation:target {
 		position: absolute;
-		top: 2em;
+		top: 0;
 		left: 0;
 		right: 0;
-		padding: 4rem 0 0;
-		background: $purple01;
+		padding: 1.563em;
+		background: $purple08;
 		margin-top: 0;
 		a {
-			color: white;
+	        @include link-colors(#fff, $purple07, $purple07, #fff, $purple08);
 		}
 	}
 
@@ -66,9 +65,12 @@
 		position: absolute;
 		top: 0;
 		right: 0;
+		li a {
+            text-align: left;
+            padding-right: .41em;
+		}
 	}
 	.u-NavSite__itemContainer {
 		display: inline-block;
 	}
-
 }

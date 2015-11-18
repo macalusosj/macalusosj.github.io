@@ -9,8 +9,17 @@
 	}
 	.u-Figure__image {
 	}
-	.bio .u-Figure__image {
-		border-radius: 15em;
+	.bio {
+        .u-Figure__image {
+            border-radius: 15em;
+        }
+        .u-Figure {
+            width: 15em;
+            margin: 0 auto
+        }
+        .u-Figure__caption {
+            text-align: center;
+        }
 	}
 	.u-Figure__caption {
 	}

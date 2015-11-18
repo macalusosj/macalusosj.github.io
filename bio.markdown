@@ -1,7 +1,7 @@
 ---
 layout: default
 aside: bio
-bodyClass: page bio
+bodyClass: u-Post bio
 title: Biography
 imageFileOne: "profile-pic.jpg"
 imageHeightOne: 720
