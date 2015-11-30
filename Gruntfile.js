@@ -166,11 +166,29 @@ module.exports = function(grunt) {
       }
     },
 
-    watch: {
+    xml_sitemap: {
+        custom_options: {
+            options: {
+                //changefreq: 'weekly',
+                dest: '_site/',
+                // fileName: 'sitemap',
+                siteRoot: 'http://jeffmacaluso.com/',
+                // lastMod: '2014-10-18T09:54:31.000Z',
+                // priority: '0.8'
+            },
+            files: [
+                {
+                    expand: true,
+                    cwd: '_site',
+                    src: [
+                        '**/*.html',
+                    ]
+                }
+            ]
+        }
+    },
 
-      // options: {
-      //   livereload: true,
-      // },
+    watch: {
 
       scripts: {
         files: ['js/*.js'],
@@ -181,7 +199,7 @@ module.exports = function(grunt) {
       },
 
       css: {
-        files: ['sass/*.scss'],
+        files: ['sass/**/*.scss'],
         tasks: ['sass', 'autoprefixer', 'cssmin', 'comment-media-queries'],
         options: {
           spawn: false,
@@ -197,7 +215,7 @@ module.exports = function(grunt) {
       },
 
       jekyll: {
-        files: ['*.html', '_posts/*.markdown', '_layouts/*.html', '_includes/*.html', 'sass/*.scss', 'css/*.css', 'images/*.{png,jpg,gif}', 'js/**/*.js'],
+        files: ['*.html', '*.markdown', '_posts/*.markdown', '_layouts/*.html', '_includes/*.html', 'sass/*.scss', 'css/*.css', 'images/*.{png,jpg,gif}', 'js/**/*.js'],
         tasks: ['jekyll:prod'],
         options: {
           spawn: false,
@@ -211,7 +229,7 @@ module.exports = function(grunt) {
   require('load-grunt-tasks')(grunt);
 
   // Default Task is basically a rebuild
-  grunt.registerTask('default', ['concat', 'uglify', 'sass', 'autoprefixer', 'cssmin', 'comment-media-queries', 'imagemin', 'grunticon:myIcons', 'jekyll:prod']);
+  grunt.registerTask('default', ['concat', 'uglify', 'sass', 'autoprefixer', 'cssmin', 'comment-media-queries', 'imagemin', 'grunticon:myIcons', 'jekyll:prod', 'grunt-xml-sitemap']);
 
   grunt.registerTask('dev', ['watch']); // connect removed for now
 

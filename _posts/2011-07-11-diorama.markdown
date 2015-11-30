@@ -1,0 +1,18 @@
+---
+layout: post-art
+aside: art
+bodyClass: u-Post art
+title: "Bedroom Window"
+date:   2011-07-11 21:44:48
+categories: art sculpture photography
+description: A drawing of a still life/sculpture made up of random objects
+imageFileOne: "bedroom-window.jpg"
+imageHeightOne: 1666
+imageWidthOne: 2338
+figureClassOne:
+figureCaptionOne: "Bedroom Window, 2011, 30cm x 30cm x 30cm, Diorama"
+u-asideTitle: "Categories"
+imageThumb: "bedroom-window-thumb.jpg"
+---
+
+I started this project with the idea of combining loosely associated memories and movie scenes. This is a photograph of a small scale model of  the bedroom window I used to sneak out of and a scene from Alfred Hitchcock&#39;s, <em> Marnie</em>.

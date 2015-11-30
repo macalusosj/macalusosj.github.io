@@ -1,0 +1,21 @@
+---
+layout: post-design
+aside: design
+bodyClass: u-Post design
+title: "Andy Bassford | Guitarist. Bassist. Producer. Storyteller. Thinker."
+date: 2014-11-18 14:28:19
+categories: design responsive performance
+description: Custom responsive wordpress theme
+imageFileOne: "bassford.jpg"
+imageHeightOne: 2338
+imageWidthOne: 2400
+figureClassOne:
+figureCaptionOne:
+u-asideTitle: "Categories"
+figureClassThumb:
+imageThumb: "bassford-thumb.jpg"
+---
+
+A responsive custom WordPress theme for a talented guitar player and writer. I am so pleased to have a client like Andy who puts so much effort into his site. I'll be the first in line to buy his book when it comes out. 
+
+[<b class="u-pageLink--external">For andybassford.com</b>](http://andybassford.com "For andybassford.com")

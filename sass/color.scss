@@ -2,7 +2,7 @@
 	Color
 	========================================================================== */
 
-	@import "mixins";
+	@import "imports";
 
 	a {
 		/*link-colors($normal, $hover, $active, $visited, $focus)*/
@@ -51,10 +51,9 @@
 		border-bottom: .09em solid $grey03;
 	}
 
-	.u-lHeader {
-		border-bottom: .168em solid $purple08;
-	}
-
+	.u-Masthead {
+		border-bottom: .107em solid $grey03
+    }
 	/*  Figure  */
 
 	.u-Figure__image {

@@ -2,7 +2,9 @@
 	Typography
 	========================================================================== */
 
-	@import "mixins";
+	@import "imports";
+	$sans-serif: 'Open Sans', Helvetica, Arial, Sans-Serif;
+	$serif: 'Lora', Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
 
 	/* classes
 	---------------- */
@@ -14,17 +16,23 @@
 	select,
 	textarea {
 		font-size: 100%;
-		font-family: 'Whitney SSm A', 'Whitney SSm B', sans-serif;
-		font-weight: 300;
+		font-family: $sans-serif;
+		font-weight: 400;
 		font-style: normal;
 		line-height: 1.563;
 	}
+	.u-Post .u-lContent {
+        h1, h2, h3, h4, h5, h6, p {
+		    @include v-pixel-fallback ('max-width', 40rem);
+        }
+    }
 	h1,h2,h3,h4,h5,h6 {
-		font-family: 'Mercury Text G1 A', 'Mercury Text G1 B', serif;
-		font-weight: 600;
+		font-family: $serif;
+		font-weight: 700;
 		font-style: normal;
 		line-height: 1.25;
-	}
+		margin: 0 auto .21em;
+    }
 	h1, h2 {
 		@include v-pixel-fallback ('font-size', 1.563rem);
 	}
@@ -37,7 +45,7 @@
 	hr {
 	}
 	p {
-		margin-bottom: 1.563em;
+		margin: 0 auto 1.563em;
 	}
 	ul, ol {
 		margin: 0 0 1.563em 3.052em;
@@ -107,7 +115,7 @@
 		width: 100%;
 	}
 	th {
-		font-weight: 600;
+		font-weight: 700;
 	}
 
 	/* classes
@@ -115,14 +123,14 @@
 
 	.u-Masthead__siteName {
 		line-height: 1;
+        margin-bottom: 0;
 		@include v-pixel-fallback ('font-size', 2.441rem);
-		/*text-transform: lowercase;*/
 	}
 
 	.u-Masthead__siteDescription,
 	.legal {
-		font-family: 'Whitney SSm A', 'Whitney SSm B', sans-serif;
-		font-weight: 300;
+		font-family: $sans-serif;
+		font-weight: 400;
 		font-style: normal;
 		@include v-pixel-fallback ('font-size', 1rem);
 	}
@@ -142,17 +150,15 @@
 	}
 
 	.ac-NavAnchor {
-		font-family: 'Mercury Text G1 A', 'Mercury Text G1 B', serif;
-		/*font-family: 'Ideal Sans A', 'Ideal Sans B' sans-serif;*/
-		font-weight: 600;
+		font-family: $serif;
+		font-weight: 700;
 		font-style: normal;
 		@include v-pixel-fallback ('font-size', 1.25rem);
 	}
 
 	.u-NavSite {
-		font-family: 'Mercury Text G1 A', 'Mercury Text G1 B', serif;
-		/*font-family: 'Ideal Sans A', 'Ideal Sans B' sans-serif;*/
-		font-weight: 600;	
+		font-family: $serif;
+		font-weight: 700;	
 		font-style: normal;
 		@include v-pixel-fallback ('font-size', 1.953rem);
 	}
@@ -169,8 +175,8 @@
 	.u-asideContent--categories,
 	.u-pageLink--external,
 	.u-pageDate {
-		font-family: 'Whitney SSm A', 'Whitney SSm B', sans-serif;
-		font-weight: 300;
+		font-family: $sans-serif;
+		font-weight: 400;
 		font-style: normal;
 		@include v-pixel-fallback ('font-size', .8rem);
 	}
@@ -195,8 +201,8 @@
 
 	.u-VCard--person__item,
 	.u-VCard--person__url {
-		font-family: 'Whitney SSm A', 'Whitney SSm B', sans-serif;
-		font-weight: 300;
+		font-family: $sans-serif;
+		font-weight: 400;
 		font-style: normal;
 		@include v-pixel-fallback ('font-size', .8rem);
 		text-decoration: none;
