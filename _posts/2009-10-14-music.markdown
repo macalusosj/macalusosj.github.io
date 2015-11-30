@@ -1,0 +1,20 @@
+---
+layout: post-art
+aside: art
+bodyClass: u-Post art
+title: "Coinstar Weekend"
+date: 2009-10-14 20:29:33
+categories: art music 
+description: Moody atmospheric sound track music with a campy sci-fi tip
+imageFileOne: "night-of-the-hunter-still.jpg"
+imageHeightOne: 1347
+imageWidthOne: 1684
+figureClassOne:
+figureCaptionOne: "Still from the 1955 film, <em>Night of the Hunter.</em>"
+u-asideTitle: "Categories"
+imageThumb: "night-of-the-hunter-still-thumb.jpg"
+---
+
+Moody atmospheric sound track music with a campy sci-fi tip
+
+<iframe width="100%" height="auto" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/83411705&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=false"></iframe>

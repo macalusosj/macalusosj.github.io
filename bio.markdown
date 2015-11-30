@@ -15,22 +15,10 @@ imageThumb: "profile-pic-rounded.jpg"
 
 <h2 class="u-pageTitle--above">{{ page.title }}</h2>
 
-I moved to New York City from Texas with a Bachelors in fine arts in pursuit of a Masters in fine art. I stayed in NYC after earning my degree and started an alternative art space with a some art school friends. We made art and exhibited it in each others DIY shows all over the city. In order to make ends meet, I worked for one of my favorite sculptors in my spare time. 
+I moved to New York City from Dallas to earn a Masters in fine art. I stayed in NYC after school and co-founded an alternative space with an art school friend. We made art and exhibited it in our space and other friend&#39;s spaces all over the city. I worked for one of my favorite sculptors in order to make ends meet.
 
-Over the last 12 years, I've divided my attention between two interests: art and design, more specifically, web design. Tried as I might to keep these interests separate the structure and discipline required to design and build web sites influenced my eccentric art habits. A calming rational balance to my creative impulse.
-
-I love to ride road bicycles and enjoy building and paddling kayaks. In the winter I telemark and xc ski. I married an awesome paddler and social worker with whom I have just had twin boys.
+I've become a graphic and web designer since then and now I live north of the city in the Hudson Valley with my lovely wife and twin boys. I continue to divide my attention between parenting, design, art, music and outdoor activities. I love to ride bicycles, ski, kayak, sail, hike and camp.
 
 ## Colophon
 
-This web site was built on responsive templates of my own design and powered by [Jekyll](http://jekyllrb.com/ "Jekyll") site generator.
-
-Designed on a Mac, using [VIM](http://www.vim.org/ "VIM the editor"), Illustrator and Photoshop.
-
-The webfonts are served up via <a href="https://www.google.com/fonts">Google Fonts</a>, and include Lora and Open Sans.
-
-Built with [Sass](http://sass-lang.com/ "Sass") and [Grunt](http://gruntjs.com/ "Grunt: The JavaScript Task Runner").
-
-Deployed on [Github](https://github.com/macalusosj "Github").
-
-Hosted by [Amazon S3](http://aws.amazon.com/s3/ "Amazon Simple Storage Service").
+This web site was built on responsive templates of my own design and hosted on [Amazon S3](http://aws.amazon.com/s3/ "Amazon Simple Storage Service"). My tools are a Mac Book Pro, [VIM text editor](http://www.vim.org/ "VIM the editor"), [Sass](http://sass-lang.com/ "Sass"), [Grunt](http://gruntjs.com/ "Grunt: The JavaScript Task Runner"), [Github](https://github.com/macalusosj "Github"), Illustrator and Photoshop. The webfonts, Lora and Open Sans, are served up via <a href="https://www.google.com/fonts">Google Fonts</a>.

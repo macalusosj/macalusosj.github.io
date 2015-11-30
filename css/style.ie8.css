@@ -750,6 +750,10 @@ video {
     margin: -.107em auto .8em;
   }
 
+  .bio .u-pageTitle--above {
+    margin: -.107em auto .21em;
+  }
+
   .u-pageTitle--below {
     margin: 0 auto 0;
   }
