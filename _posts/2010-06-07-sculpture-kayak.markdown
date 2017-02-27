@@ -13,6 +13,10 @@ figureClassOne:
 figureCaptionOne: "The Nikumi, 2010, 17 ft x 21 in X 10.5 in, Pine, marine plywood, nylon fabric and twine, tinted polyurethane"
 u-asideTitle: "Categories"
 imageThumb: "nikumi-2009-11-22-13-44-thumb.jpg"
+ogpath: art/sculpture/kayak/baidarka/2010/06/07/sculpture-kayak.html
+ogimage: nikumi-2010-05-31-18-19.jpg
+ogimageWidth: 1684
+ogimageHeight: 1347 
 ---
 
-This kayak is a hand-built, peg-and-lash, skin-on-frame, multi-chine Baidarka. I finished it during the winter of 2010, just as the weather was warming up. The design is by [Tom Yost](http://yostwerks.com/DesignsMenuWood.html "Tom Yost") and the kayak building class was taught by Jack Gilman at JFK Marina in Yonkers, NY.
+This kayak is a hand-built, peg-and-lash, skin-on-frame, multi-chine Baidarka. I finished it during the winter of 2010, just as the weather was warming up. The design is by [Tom Yost](http://www.yostwerks.org/NikumiPaddle6.html "Tom Yost") and the kayak building class was taught by Jack Gilman at JFK Marina in Yonkers, NY.

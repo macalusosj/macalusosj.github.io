@@ -14,6 +14,10 @@ figureCaptionOne:
 u-asideTitle: "Categories"
 figureClassThumb:
 imageThumb: "mbarison-thumb.png"
+ogpath: design/responsive/performance/2013/04/15/design.html
+ogimage: mbarison-desktop.png
+ogimageWidth: 1292
+ogimageHeight: 966
 ---
 
 A responsive one-page site with an emphasis on simplicity and performance over wireless mobile internet connections.

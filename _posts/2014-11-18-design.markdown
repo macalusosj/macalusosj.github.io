@@ -14,6 +14,10 @@ figureCaptionOne:
 u-asideTitle: "Categories"
 figureClassThumb:
 imageThumb: "bassford-thumb.jpg"
+ogpath: design/responsive/performance/2014/11/18/design.html
+ogimage: bassford.jpg
+ogimageWidth: 2400
+ogimageHeight: 2338
 ---
 
 A responsive custom WordPress theme for a talented guitar player and writer. I am so pleased to have a client like Andy who puts so much effort into his site. I'll be the first in line to buy his book when it comes out. 

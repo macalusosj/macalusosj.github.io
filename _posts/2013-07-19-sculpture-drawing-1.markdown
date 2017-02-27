@@ -13,6 +13,10 @@ figureClassOne:
 figureCaptionOne: "Stooge, 2013, 5cm x 10cm, Pencil on paper"
 u-asideTitle: "Categories"
 imageThumb: "sculpture-drawing-idea-1-thumb.jpg"
+ogpath: art/drawing/sculpture/still-life/2013/07/19/sculpture-drawing-1.html
+ogimage: sculpture-drawing-idea-1.jpg
+ogimageWidth: 1429
+ogimageHeight: 2000
 ---
 
 A drawing of a still life/sculpture put together with random objects sitting around the studio.

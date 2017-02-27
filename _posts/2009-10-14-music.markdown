@@ -13,6 +13,10 @@ figureClassOne:
 figureCaptionOne: "Still from the 1955 film, <em>Night of the Hunter.</em>"
 u-asideTitle: "Categories"
 imageThumb: "night-of-the-hunter-still-thumb.jpg"
+ogpath: art/music/2009/10/14/music.html
+ogimage: night-of-the-hunter-still.jpg
+ogimageWidth: 1048
+ogimageHeight: 704
 ---
 
 Moody atmospheric sound track music with a campy sci-fi tip

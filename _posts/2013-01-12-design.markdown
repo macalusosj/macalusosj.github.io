@@ -14,6 +14,10 @@ figureCaptionOne:
 u-asideTitle: "Categories"
 figureClassThumb:
 imageThumb: "roc-thumb.jpg"
+ogpath: design/responsive/wordpress/2013/01/12/design.html
+ogimage: roc.jpg
+ogimageWidth: 1505
+ogimageHeight: 940
 ---
 
 A first step in a project involving a nonprofit that is planning to raise funds to rebuild a school building in rural Jamaica. A donation form and collateral social media are slated to follow. This site is built on [WordPress](http://wordpress.org/ "WordPress") with a customized three column responsive theme. Designed with Illustrator and hand-coded in Dreamweaver.

@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/macalusosj
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://jeffmacaluso.com
+  * I am macalusosj (https://keybase.io/macalusosj) on keybase.
+  * I have a public key ASAaMOwvD5LMP95ATXpYnlJICnHHbg-FMjren5nxLOcN6wo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01014282ae30f16287376b22bff252d61202389f2625ac91818be6025b956c60ac610a",
+            "host": "keybase.io",
+            "kid": "01201a30ec2f0f92cc3fde404d7a589e52480a71c76e0f85323ade9f99f12ce70deb0a",
+            "uid": "6e8b144d0e48879fc29de7119e206e00",
+            "username": "macalusosj"
+        },
+        "service": {
+            "hostname": "jeffmacaluso.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1479848806,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1479848740,
+        "hash": "ec39da2468053a84dd88989dc33efab8a8ce42876c774879e9f0b71ef1a81cd388d570c1a0ad71b9b14b78b89ded6620d1c9e6e2fc1a1264bbb941d6ef833dd7",
+        "seqno": 730496
+    },
+    "prev": "d47da7048cc7c045044eda31464f179abbe2ed1c4d653d61b94fca92205e74f2",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgGjDsLw+SzD/eQE16WJ5SSApxx24PhTI63p+Z8SznDesKp3BheWxvYWTFAvl7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxNDI4MmFlMzBmMTYyODczNzZiMjJiZmYyNTJkNjEyMDIzODlmMjYyNWFjOTE4MThiZTYwMjViOTU2YzYwYWM2MTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMWEzMGVjMmYwZjkyY2MzZmRlNDA0ZDdhNTg5ZTUyNDgwYTcxYzc2ZTBmODUzMjNhZGU5Zjk5ZjEyY2U3MGRlYjBhIiwidWlkIjoiNmU4YjE0NGQwZTQ4ODc5ZmMyOWRlNzExOWUyMDZlMDAiLCJ1c2VybmFtZSI6Im1hY2FsdXNvc2oifSwic2VydmljZSI6eyJob3N0bmFtZSI6ImplZmZtYWNhbHVzby5jb20iLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE4In0sImN0aW1lIjoxNDc5ODQ4ODA2LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0Nzk4NDg3NDAsImhhc2giOiJlYzM5ZGEyNDY4MDUzYTg0ZGQ4ODk4OWRjMzNlZmFiOGE4Y2U0Mjg3NmM3NzQ4NzllOWYwYjcxZWYxYTgxY2QzODhkNTcwYzFhMGFkNzFiOWIxNGI3OGI4OWRlZDY2MjBkMWM5ZTZlMmZjMWExMjY0YmJiOTQxZDZlZjgzM2RkNyIsInNlcW5vIjo3MzA0OTZ9LCJwcmV2IjoiZDQ3ZGE3MDQ4Y2M3YzA0NTA0NGVkYTMxNDY0ZjE3OWFiYmUyZWQxYzRkNjUzZDYxYjk0ZmNhOTIyMDVlNzRmMiIsInNlcW5vIjo3LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQBfYP2NJCUO16slU4Se1+7PSCEs6xy+ucvwKTkDWtyOUw2UnP2xFF1hMqJQUZuk5jzQQJv6k2PLAYhhceGZZLQaoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCCKlJnyANCHa4un9+ca1MueRn+2JNmvcT3iFGZZJjxU9KN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/macalusosj
+
+==================================================================

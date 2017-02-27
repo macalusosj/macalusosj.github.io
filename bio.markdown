@@ -11,6 +11,10 @@ figureCaptionOne: "Yep, this is me."
 categories: biography colophon
 description: A little about me and this site 
 imageThumb: "profile-pic-rounded.jpg"
+ogpath: bio.html
+ogimage: profile-pic.jpg
+ogimageWidth: 720
+ogimageHeight: 720
 ---
 
 <h2 class="u-pageTitle--above">{{ page.title }}</h2>

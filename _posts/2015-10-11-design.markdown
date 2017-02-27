@@ -14,6 +14,10 @@ figureCaptionOne:
 u-asideTitle: "Categories"
 figureClassThumb:
 imageThumb: "obercreek-brewing-co-logo-05-brew-01-thumb.png"
+ogpath: design/branding/logo/2015/10/11/design.html
+ogimage: obercreek-brewing-co-logo-05-brew-01.png
+ogimageWidth: 3249
+ogimageHeight: 2407
 ---
 
 Brand identity for a local brewer

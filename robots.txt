@@ -1,0 +1,5 @@
+# robots.txt
+User-agent: *
+Disallow: 
+Disallow: /obercreek/
+Sitemap: http://jeffmacaluso.com/sitemap.xml
