@@ -20,6 +20,8 @@ ogimageWidth: 1292
 ogimageHeight: 966
 ---
 
+{% include figure-caption-one.html %}
+
 A responsive one-page site with an emphasis on simplicity and performance over wireless mobile internet connections.
 
 [<b class="u-pageLink--external">For matthewbarison.com</b>](http://matthewbarison.com "For matthewbarison.com")

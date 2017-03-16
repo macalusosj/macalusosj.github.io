@@ -2,4 +2,5 @@
 User-agent: *
 Disallow: 
 Disallow: /obercreek/
+Disallow: /randolph/
 Sitemap: http://jeffmacaluso.com/sitemap.xml

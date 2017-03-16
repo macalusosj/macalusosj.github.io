@@ -20,6 +20,8 @@ ogimageWidth: 2400
 ogimageHeight: 2338
 ---
 
+{% include figure-caption-one.html %}
+ 
 A responsive custom WordPress theme for a talented guitar player and writer. I am so pleased to have a client like Andy who puts so much effort into his site. I'll be the first in line to buy his book when it comes out. 
 
 [<b class="u-pageLink--external">For andybassford.com</b>](http://andybassford.com "For andybassford.com")

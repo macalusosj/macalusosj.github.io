@@ -3,14 +3,19 @@ layout: post-design
 aside: design
 bodyClass: u-Post design
 title: "Obercreek Brewing Company"
-date: 2015-10-11 12:22:34
+date: 2017-03-01 12:22:34
 categories: design branding logo
 description: Brand identity for a local brewer 
-imageFileOne: "obercreek-brewing-co-logo-05-brew-01.png"
+imageFileOne: "obercreek-brewing-co-merch.jpg"
 imageHeightOne: 3249
 imageWidthOne: 2407
 figureClassOne:
 figureCaptionOne:
+imageFileTwo: "obercreek-brewing-co-logo-05-brew-01.png"
+imageHeightTwo: 3249
+imageWidthTwo: 2407
+figureClassTwo:
+figureCaptionTwo:
 u-asideTitle: "Categories"
 figureClassThumb:
 imageThumb: "obercreek-brewing-co-logo-05-brew-01-thumb.png"
@@ -20,4 +25,9 @@ ogimageWidth: 3249
 ogimageHeight: 2407
 ---
 
+{% include figure-caption-one.html %}
+
+{% include figure-caption-two.html %}
+
 Brand identity for a local brewer
+

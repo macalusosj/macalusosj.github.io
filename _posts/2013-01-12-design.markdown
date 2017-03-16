@@ -20,6 +20,8 @@ ogimageWidth: 1505
 ogimageHeight: 940
 ---
 
+{% include figure-caption-one.html %}
+
 A first step in a project involving a nonprofit that is planning to raise funds to rebuild a school building in rural Jamaica. A donation form and collateral social media are slated to follow. This site is built on [WordPress](http://wordpress.org/ "WordPress") with a customized three column responsive theme. Designed with Illustrator and hand-coded in Dreamweaver.
 
 [<b class="u-pageLink--external">For Rainbowovercambridge.org</b>](http://Rainbowovercambridge.org "For Rainbowovercambridge.org")
