@@ -1,0 +1,20 @@
+---
+layout: post-art
+aside: art
+bodyClass: u-Post art
+title: "Tree"
+date:   2018-01-04 20:28:48
+categories: art drawing
+description: Ink drawing on paper
+imageFileOne: "drawing-tree.jpg"
+imageHeightOne: 2862
+imageWidthOne: 2147
+figureClassOne:
+figureCaptionOne: "Untitled, 2018, 5cm x 10cm, Ink on paper"
+u-asideTitle: "Categories"
+imageThumb: "drawing-tree-thumb.jpg"
+ogpath: art/drawing/2018/01/04/drawing.html
+ogimage: drawing-tree-thumb.jpg
+ogimageWidth: 2147
+ogimageHeight: 2862
+---

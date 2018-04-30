@@ -15,7 +15,12 @@ imageFileTwo: "obercreek-brewing-co-logo-05-brew-01.png"
 imageHeightTwo: 3249
 imageWidthTwo: 2407
 figureClassTwo:
-figureCaptionTwo:
+figureCaptionTwo: Combination Mark
+imageFileThree: "obercreek-brewing-co-site.jpg"
+imageHeightThree: 2835
+imageWidthThree: 1549
+figureClassThree:
+figureCaptionThree: Obercreekbrewing.com
 u-asideTitle: "Categories"
 figureClassThumb:
 imageThumb: "obercreek-brewing-co-logo-05-brew-01-thumb.png"
@@ -25,9 +30,10 @@ ogimageWidth: 3249
 ogimageHeight: 2407
 ---
 
-{% include figure-caption-one.html %}
+Brand identity for a local brewer
+
+{% include figure-caption-three.html %}
 
 {% include figure-caption-two.html %}
 
-Brand identity for a local brewer
-
+{% include figure-caption-one.html %}

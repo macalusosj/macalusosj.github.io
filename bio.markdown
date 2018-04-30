@@ -7,7 +7,7 @@ imageFileOne: "profile-pic.jpg"
 imageHeightOne: 720
 imageWidthOne: 1080
 figureClassOne: ""
-figureCaptionOne: "Yep, this is me."
+figureCaptionOne: ""
 categories: biography colophon
 description: A little about me and this site 
 imageThumb: "profile-pic-rounded.jpg"

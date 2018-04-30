@@ -936,7 +936,7 @@ textarea {
 
 .u-lContent,
 .u-lAside {
-  border-bottom: 0.09em solid #cccccc;
+  border-bottom: 1px solid #cccccc;
 }
 
 .u-Masthead {
@@ -946,7 +946,7 @@ textarea {
 /*  Figure  */
 
 .u-Figure__image {
-  border: 0.09em solid #cccccc;
+  border: 1px solid #cccccc;
 }
 
 .u-lFooter {
@@ -955,7 +955,7 @@ textarea {
 }
 
 .u-VCard {
-  border-bottom: 0.09em solid #a29fce;
+  border-bottom: 1px solid #a29fce;
 }
 
 /*  Menu  */

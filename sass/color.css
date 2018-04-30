@@ -1,0 +1,124 @@
+/*	==========================================================================
+	Color
+	========================================================================== */
+a {
+  /*link-colors($normal, $hover, $active, $visited, $focus)*/
+  color: #303251;
+  transition: all .23s ease-in-out; }
+  a:visited {
+    color: #303251; }
+  a:focus {
+    color: #303251; }
+  a:hover {
+    color: #696DB2; }
+  a:active {
+    color: #696DB2; }
+
+html,
+body,
+button,
+input,
+select,
+textarea {
+  color: #303251; }
+
+/* classes
+---------------- */
+#u-Masthead {
+  text-decoration: none; }
+
+.ac-NavAnchor {
+  background: #303251;
+  text-decoration: none; }
+
+.ac-NavAnchor--menu,
+.ac-NavAnchor--top,
+.u-VCard--person__url {
+  /*link-colors($normal, $hover, $active, $visited, $focus)*/
+  color: white;
+  border-radius: 0 0 3px 3px; }
+  .ac-NavAnchor--menu:visited,
+  .ac-NavAnchor--top:visited,
+  .u-VCard--person__url:visited {
+    color: white; }
+  .ac-NavAnchor--menu:focus,
+  .ac-NavAnchor--top:focus,
+  .u-VCard--person__url:focus {
+    color: #A29FCE; }
+  .ac-NavAnchor--menu:hover,
+  .ac-NavAnchor--top:hover,
+  .u-VCard--person__url:hover {
+    color: #A29FCE; }
+  .ac-NavAnchor--menu:active,
+  .ac-NavAnchor--top:active,
+  .u-VCard--person__url:active {
+    color: #C2C3E2; }
+
+.ac-NavAnchor--top {
+  border-radius: 3px 3px 3px 3px; }
+
+.u-lContent,
+.u-lAside {
+  border-bottom: 1px solid #ccc; }
+
+.u-Masthead {
+  border-bottom: 0.107em solid #ccc; }
+
+/*  Figure  */
+.u-Figure__image {
+  border: 1px solid #ccc; }
+
+.u-lFooter {
+  background: #696DB2;
+  color: white; }
+
+.u-VCard {
+  border-bottom: 1px solid #A29FCE; }
+
+/*  Menu  */
+.art .u-NavSite__item--art .u-NavSite__item,
+.bio .u-NavSite__item--about .u-NavSite__item,
+.design .u-NavSite__item--design .u-NavSite__item {
+  /*link-colors($normal, $hover, $active, $visited, $focus)*/
+  color: #696DB2; }
+  .art .u-NavSite__item--art .u-NavSite__item:visited,
+  .bio .u-NavSite__item--about .u-NavSite__item:visited,
+  .design .u-NavSite__item--design .u-NavSite__item:visited {
+    color: #696DB2; }
+  .art .u-NavSite__item--art .u-NavSite__item:focus,
+  .bio .u-NavSite__item--about .u-NavSite__item:focus,
+  .design .u-NavSite__item--design .u-NavSite__item:focus {
+    color: #303251; }
+  .art .u-NavSite__item--art .u-NavSite__item:hover,
+  .bio .u-NavSite__item--about .u-NavSite__item:hover,
+  .design .u-NavSite__item--design .u-NavSite__item:hover {
+    color: #303251; }
+  .art .u-NavSite__item--art .u-NavSite__item:active,
+  .bio .u-NavSite__item--about .u-NavSite__item:active,
+  .design .u-NavSite__item--design .u-NavSite__item:active {
+    color: #303251; }
+
+/* gruniticons */
+.forest {
+  background-repeat: repeat-x;
+  background-position: bottom center; }
+
+.icon {
+  transition: none;
+  background-repeat: no-repeat; }
+
+.icon-Menu--top,
+.icon-Menu,
+.icon-Logo {
+  transition: none;
+  background-repeat: no-repeat; }
+
+.icon-Menu--top,
+.icon-Menu {
+  background-position: center center; }
+
+/* end grunticons */
+@media screen and (min-width: 38em) {
+  .u-lContent,
+  .u-lAside {
+    border-bottom: 0px; } }
