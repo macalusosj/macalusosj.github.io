@@ -1,0 +1,30 @@
+/* FIGURE */
+@media screen {
+  .u-Figure {
+    margin: 0 0 3.052em 0; }
+
+  .bio .u-Figure__image {
+    border-radius: 15em; }
+  .bio .u-Figure {
+    width: 15em;
+    margin: 0 auto; }
+  .bio .u-Figure__caption {
+    text-align: center; }
+
+  .u-Figure__caption--title,
+  .u-Figure__caption--date {
+    display: block; }
+
+  .u-Figure__caption--title {
+    margin-bottom: .328em; }
+
+  .u-Figure--left {
+    float: left;
+    margin: 0 1.953em 3.0523em 0; }
+
+  .u-Figure--right {
+    float: right;
+    margin: 0 0 3.052em 1.953em; }
+
+  .u-Figure--third {
+    width: 33%; } }

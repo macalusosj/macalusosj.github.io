@@ -19,4 +19,4 @@ ogimageWidth: 2338
 ogimageHeight: 1666
 ---
 
-I started this project with the idea of combining loosely associated memories and movie scenes. This is a photograph of a small scale model of  the bedroom window I used to sneak out of and a scene from Alfred Hitchcock&#39;s, <em> Marnie</em>.
+I started this project with the idea of combining loosely associated memories and movie scenes. This is a photograph of a small scale model of the bedroom window I used to sneak out of as an adolescent and a scene from Alfred Hitchcock&#39;s, <em> Marnie</em>.

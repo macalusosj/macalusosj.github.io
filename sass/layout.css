@@ -1,0 +1,124 @@
+/* LAYOUT */
+/* ie stuff */
+img {
+  /* border: 0; /* 1 */
+  -ms-interpolation-mode: bicubic;
+  /*! 2 */ }
+
+@media \0screen {
+  img, embed, object, video {
+    width: auto;
+    max-width: none; } }
+img, embed, object, video {
+  height: auto;
+  -ms-interpolation-mode: bicubic;
+  /* max-width: 100%; */
+  width: 100%;
+  _width: 100%; }
+
+/* end ie stuff */
+@media screen {
+  * {
+    box-sizing: border-box; }
+
+  figure {
+    margin: 0;
+    padding: 0; }
+
+  hr:after {
+    display: inline-block;
+    position: relative;
+    top: -0.8em;
+    padding: 0 0.25em; }
+
+  .u-Masthead {
+    display: block; }
+
+  .u-PostsList {
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 1.563em; }
+
+  .u-PostsList__itemContainer {
+    float: none;
+    margin-right: 0;
+    width: 100%; }
+
+  .u-pageTitle--above {
+    margin: -.107em auto .8em; }
+
+  .bio .u-pageTitle--above {
+    margin: -.107em auto .21em; }
+
+  .u-pageTitle--below {
+    margin: 0 auto 0; }
+
+  .u-asideTitle {
+    margin: 0; }
+
+  .u-lFooter,
+  .u-lMain {
+    position: relative; }
+
+  .u-lFooter,
+  .u-lMain,
+  .u-NavSite {
+    padding: 1.953em 5%; }
+
+  .u-lHeader {
+    padding: 4.768em 5% 0; }
+
+  .u-Masthead {
+    padding: 0 0 1.953em; }
+
+  .u-lAside {
+    padding-top: 1.563em; }
+
+  /* gruniticons */
+  .icon {
+    width: 32px;
+    height: 32px;
+    display: inline-block; }
+
+  .u-VCard--person__url {
+    height: 32px;
+    display: block; }
+
+  .icon-Menu--top,
+  .icon-Menu {
+    width: 50px;
+    height: 50px; }
+
+  .u-lHeader .icon-Logo {
+    display: block; }
+
+  /* end grunticons */ }
+@media screen and (min-width: 50em) {
+  .u-lHeader {
+    padding: 2.441em 5% 0; }
+
+  .u-Masthead__siteName {
+    margin-bottom: 0; }
+
+  .u-PostsList__itemContainer {
+    float: left;
+    margin-right: 5%;
+    width: 29%; }
+
+  li.u-PostsList__itemContainer:nth-child(3n+1) {
+    clear: left; }
+
+  li.u-PostsList__itemContainer:nth-child(3n+3) {
+    margin-right: 0; }
+
+  .u-PostsListPage .u-lAside {
+    display: none; }
+
+  .u-lFooter {
+    clear: both; }
+
+  .u-VCard--person__info {
+    margin: 0 0 0 0;
+    right: 0;
+    bottom: .512em;
+    position: absolute; } }
